@@ -16,7 +16,7 @@ app.get("/produtos/:pagina", (req, res) => {
       return res.status(400).send("Número da página inválido.");
     } // Verifica se a pagina solicitada é válida
 
-    let produtosOrganizadas;
+    let produtosOrganizados;
 
     if (pagina === 1) {
       produtosOrganizados = todosProdutos.slice(0, 10);
