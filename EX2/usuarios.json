@@ -1,0 +1,31 @@
+[
+  {
+    "id": 1,
+    "nome": "Bruno Davi Navarro",
+    "email": "brunodavinavarro@gmail.com"
+  },
+
+  {
+    "id": 2,
+    "nome": "Wesley Jesus",
+    "email": "wesleyjesus@gmail.com"
+  },
+
+  {
+    "id": 3,
+    "nome": "Danielly Rodrigues Figueredo",
+    "email": "danizinhaaa0dz9@gmail.com"
+  },
+
+  {
+    "id": 4,
+    "nome": "Mauro Davi dos Santos Nepomuceno",
+    "email": "oruam@gmail.com"
+  },
+
+  {
+    "id": 5,
+    "nome": "Davi Bruno Navarro",
+    "preco": "davibruno@gmail.com"
+  }
+]

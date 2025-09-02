@@ -1,0 +1,31 @@
+[
+  {
+    "id": 1,
+    "nome": "F1 GRAND PRIX ITALY",
+    "data": "2025-09-07"
+  },
+
+  {
+    "id": 2,
+    "nome": "F1 GRAND PRIX AZERBAIJAN",
+    "data": "2025-09-21"
+  },
+
+  {
+    "id": 3,
+    "nome": "F1 GRAND PRIX SINGAPORE",
+    "data": "2025-10-05"
+  },
+
+  {
+    "id": 4,
+    "nome": "F1 GRAND PRIX AUSTRIA",
+    "data": "2025-09-07"
+  },
+
+  {
+    "id": 5,
+    "nome": "F1 GRAND PRIX MEXICO",
+    "data": "2025-09-26"
+  }
+]
