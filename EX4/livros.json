@@ -1,31 +1,32 @@
 [
-  {
-    "id": 1,
-    "nome": "F1 GRAND PRIX ITALY",
-    "data": "2025-09-07"
-  },
-
-  {
-    "id": 2,
-    "nome": "F1 GRAND PRIX AZERBAIJAN",
-    "data": "2025-09-21"
-  },
-
-  {
-    "id": 3,
-    "nome": "F1 GRAND PRIX SINGAPORE",
-    "data": "2025-10-05"
-  },
-
-  {
-    "id": 4,
-    "nome": "F1 GRAND PRIX AUSTRIA",
-    "data": "2025-09-07"
-  },
-
-  {
-    "id": 5,
-    "nome": "F1 GRAND PRIX MEXICO",
-    "data": "2025-09-26"
-  }
+{
+  "id": 2,
+  "titulo": "1984",
+  "autor": "George Orwell",
+  "data": "2025-09-07"
+},
+{
+  "id": 3,
+  "titulo": "A Revolução dos Bichos",
+  "autor": "George Orwell",
+  "data": "2025-09-07"
+},
+{
+  "id": 4,
+  "titulo": "Napoleão em Moscou",
+  "autor": "Stanley Kubrick",
+  "data": "2025-09-07"
+},
+{
+  "id": 5,
+  "titulo": "O Iluminado",
+  "autor": "Stephen King",
+  "data": "2025-09-07"
+},
+{
+  "id": 6,
+  "titulo": "2001: Uma Odisseia no Espaço",
+  "autor": "Arthur C. Clarke & Stanley Kubrick",
+  "data": "2025-09-07"
+}
 ]
