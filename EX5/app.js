@@ -8,7 +8,7 @@ const fs = require("fs");
 app.get("/produtos/:pagina", (req, res) => {
   try {
     const arquivoData = fs.readFileSync("./produtos.json", "utf-8");
-    let todosProdutos = JSON.parse(arquivoData); // Corrigido: usamos esta variável para os produtos
+    let todosProdutos = JSON.parse(arquivoData); 
 
     let pagina = parseInt(req.params.pagina);
 
@@ -19,16 +19,16 @@ app.get("/produtos/:pagina", (req, res) => {
     let produtosOrganizadas;
 
     if (pagina === 1) {
-      produtosOrganizadas = todosProdutos.slice(0, 10);
+      produtosOrganizados = todosProdutos.slice(0, 10);
     } else if (pagina === 2) {
-      produtosOrganizadas = todosProdutos.slice(10, 20);
+      produtosOrganizados = todosProdutos.slice(10, 20);
     } else if (pagina === 3) {
-      produtosOrganizadas = todosProdutos.slice(20, 30);
+      produtosOrganizados = todosProdutos.slice(20, 30);
     } else {
       return res.status(404).send(`A página ${pagina} não existe.`);
     } // condição que divide a página de acordo com a quantidade de produtos
 
-    res.status(200).json(produtosOrganizadas); // Corrigido: retorna os produtos da página
+    res.status(200).json(produtosOrganizados); 
   } catch (error) {
     console.error("Erro ao ler o arquivo JSON", error);
     res.status(500).send("Erro interno no servidor!");
